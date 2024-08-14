@@ -1,13 +1,13 @@
 ## UCBEE
 
 This repository is the official implementation of UCBEE
-The experimental section of CeeBERT can be divided into two major parts:
+The experimental section of UCBEE can be divided into two major parts:
 
 Part 1 (Finetuning and predictions): We finetune the ElasticBERT backbone after attaching exits to all the layers on RTE, SST-2, MNLI and MRPC (GLUE) datasets and then obtain prediction as well as confidence values for the evaluation (SciTail, IMDB, Yelp, SNLI, QQP)(GLUE and ELUE datasets except IMDB)  i.e. all exit predictions for all samples (num_samples X num_exits)
 
 Part 2: After training of exits, save the predictions and confidence of each exit point as given in (Early_Exit_Confidence_data_yelp____.csv). 
 
-For CeeBERT with exits execute the "ubert_one.ipynb" file.
+For UCBEE with one exit execute the "ubert one exit.ipynb" file.
 
 ## Requirements
 To install requirements 
